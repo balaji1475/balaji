@@ -20,6 +20,7 @@ public class Batchableclass  implements Database.batchable<sobject> ,Database.St
            a.Name = 'BAluBatch records'; 
            a.NumberOfEmployees = 70; 
            system.debug('welcome');
+           system.debug('testing 2');
            accsToUpdate.add(a); 
            if(a.Industry=='Banking'){
                accs.add(a);
