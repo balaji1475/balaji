@@ -21,6 +21,7 @@ public class Batchableclass  implements Database.batchable<sobject> ,Database.St
            a.NumberOfEmployees = 70; 
            system.debug('welcome');
            system.debug('testing 2');
+           system.debug('testing 3');
            accsToUpdate.add(a); 
            if(a.Industry=='Banking'){
                accs.add(a);
